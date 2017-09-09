@@ -186,6 +186,8 @@ class Lobby extends Component {
   }
 }
 
+
+
   onReceivedMessage(messages=[]) {
     console.log('Message was recieved', messages);
     this._storeMessages(messages);
